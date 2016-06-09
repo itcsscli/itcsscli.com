@@ -9,6 +9,7 @@
     "fastclick": "1.0.6",
     "enquire": "2.1.2",
     "picturefill": "3.0.2",
-    "hagrid": "3.0.0"
+    "hagrid": "3.0.0",
+    "show-your-terms": "*"
   }
 }
