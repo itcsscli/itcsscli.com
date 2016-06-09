@@ -1,0 +1,10 @@
+# ========================================
+#   #itcss.yml
+#   This file is automatically updated by itcsscli.
+# ========================================
+---
+stylesheets_directory: source/assets/stylesheets
+stylesheets_import_file: application.css
+package_manager: bower
+inuit_prefix: ''
+
