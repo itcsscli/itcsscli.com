@@ -1,5 +1,25 @@
-.row
+.hero.text-align-center
   .container
-    h1 Middleman Startaê — It just works!
-    p A Middleman template with Sass, Slim, Hagrid, Coffeescript, Bower and more…
-    a.btn.btn--primary href='https://github.com/startae/middleman-startae' See the Github project
+    = image_tag 'logocli.svg', class: 'hero__logo'
+    .hero__phrase Manage your ITCSS structure from command line.
+
+.section
+  .container
+    h3.section__title Why?
+    p.section__paragraph We love ITCSS. But it can be hard to grow fluidly.
+    p.section__paragraph Creating new modules and importing them takes a precious time and ends up you wishing they come in a single package. But this would go against one of the best CSS practices:
+    h4.section__subtitle Import only what you really uses
+    p.section__paragraph That's why itcsscli were created. So you can create ITCSS modules, install inuitcss files independently and import it all on your sass base file automatically without breaking your workflow abruptly.
+
+    h3.section__title Instalation
+    p.section__paragraph itcsscli is a very simple and small RubyGem. To install it on your computer must have ruby and then install the gem from your terminal:
+    p.section__paragraph If this command fails, you can force it prepending `sudo`.
+
+    h3.section__title Setting up
+    p.section__paragraph You can setup itcsscli interactively:
+
+    h3.section__title Usage
+    p.section__paragraph Now that everything seems to be configured. You can run itcss commands from the root of your project:
+
+    h3.section__title Inuitcss
+    p.section__paragraph Download and import inuitcss modules should not be that hard. That’s why we decided to add inuit commands to itcsscli. They use your package manager to download the external modules and import it all automatically in your sass base file.
