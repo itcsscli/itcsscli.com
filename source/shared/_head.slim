@@ -1,5 +1,8 @@
 meta charset='utf-8'
-title Middleman Startaê
+- if data.page.title
+  title = "#{data.page.title} &mdash; #{data.page.excerpt}"
+- else
+  title = "itcsscli &mdash; Manage your ITCSS structure from command line."
 = stylesheet_link_tag 'application.css', media: 'all'
 link rel='dns-prefetch' href='//cdnjs.cloudflare.com'
 link rel='dns-prefetch' href='//www.google-analytics.com'

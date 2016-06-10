@@ -1,0 +1,23 @@
+---
+title: itcssdoc
+excerpt: A quick overview into your ITCSS structure.
+---
+
+.hero.text-align-center
+  .container
+    = image_tag 'itcssdoc.svg', class: 'hero__logo'
+    .hero__phrase A quick overview into your ITCSS structure.
+    .showyourterms.js-syt8
+      .command data-action='command' itcss doc
+      .green data-action='line' data-delay='0' The ITCSS documentation has been successfully generated.
+      .green data-action='line' data-delay='0' create itcssdoc/index.html
+      .yellow data-action='line' data-delay='8000' opening ITCSSDOC in your browser...
+
+.section
+  .container.container--big
+    .showyourterms.showyourterms--screenshot
+      = image_tag 'itcssdoc_screenshot.png', class: 'section__screenshot'
+
+.section
+  .container
+    p.section__paragraph One of the problems of ITCSS structure its the huge pile of files.
