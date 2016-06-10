@@ -9,3 +9,4 @@
 # Fastclick
 # -------------------------------------
 #= require fastclick/lib/fastclick
+#= require show-your-terms/src/show-your-terms
