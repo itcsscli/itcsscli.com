@@ -14,7 +14,7 @@ gem 'middleman-livereload', '3.4.6'
 gem 'middleman-autoprefixer', '2.7.0'
 
 # itcsscli
-gem 'itcsscli'
+gem 'itcsscli', '0.1.5'
 
 # Rack Middleware and Utilities
 gem 'rack-contrib', '1.4.0'
