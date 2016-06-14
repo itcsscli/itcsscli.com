@@ -2,14 +2,16 @@
 // @name showyourterms
 
 .showyourterms
-  display: inline-flex
-  width: 100%
   text-align: left
   font-family: 'source-code-pro', monospace
   font-weight: lighter
-  flex-direction: column
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16)
+  word-break: break-all
+  box-shadow: 0 3px 6px rgba(black,.16)
+
+  &:before
+    box-shadow: 0 0 7px rgba(black,.3)
 
 .showyourterms--screenshot
   padding: 0
-  margin-bottom: 50px
+  line-height: 0
+  margin: 46px 0
