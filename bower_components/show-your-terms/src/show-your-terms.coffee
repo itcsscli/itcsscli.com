@@ -1,6 +1,7 @@
 class @ShowYourTerms
   constructor: (@container, @replay = true) ->
-    @container = document.querySelector(@container)
+    unless @container.nodeType
+      @container = document.querySelector(@container)
     @outputIndex = 0
     @content = []
     if @container.innerText.length > 0

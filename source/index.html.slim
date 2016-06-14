@@ -3,7 +3,7 @@
   .container
     = image_tag 'itcsscli.svg', class: 'hero__logo'
     .hero__phrase Manage your ITCSS structure from command line.
-    .showyourterms.js-syt1
+    .showyourterms.js-syt
       .command data-action='command' itcss new comp buttons
       .green data-action='line' data-delay='0' create source/assets/stylesheets/components/_components.buttons.sass
       .blue data-action='line' data-delay='8000' update source/assets/stylesheets/application.sass
@@ -22,13 +22,13 @@
 
     h3.section__title Installation
     p.section__paragraph itcsscli is a very simple and small RubyGem. To install it on your computer must have ruby and then install the gem from your terminal:
-    .showyourterms.js-syt2
-      .command data-action='command' data-delay='8000' gem install itcsscli
+    .showyourterms
+      .command gem install itcsscli
     p.section__paragraph If this command fails, you can force it prepending `sudo`.
 
     h3.section__title Setting up
     p.section__paragraph You can setup itcsscli interactively:
-    .showyourterms.js-syt3
+    .showyourterms.js-syt
       .command data-action='command' gem install itcsscli
       .yellow data-action='line' Well done! Let`s configure your itcss.yml:
       .grey data-action='line' Provide the root folder name where the ITCSS file structure should be built:
@@ -43,21 +43,21 @@
 
     h3.section__title Usage
     p.section__paragraph Now that everything seems to be configured, you can run itcss commands from the root of your project:
-    .showyourterms.js-syt4
+    .showyourterms.js-syt
       .command data-action='command' itcss new comp buttons
       .green data-action='line' data-delay='0' create source/assets/stylesheets/components/_components.buttons.sass
       .blue data-action='line' data-delay='8000' update source/assets/stylesheets/application.sass
-    .showyourterms.js-syt5
+    .showyourterms.js-syt
       .command data-action='command' itcss new tr helpers
       .green data-action='line' data-delay='0' create source/assets/stylesheets/helpers/_helpers.buttons.sass
       .blue data-action='line' data-delay='8000' update source/assets/stylesheets/application.sass
-    .showyourterms.js-syt6
+    .showyourterms.js-syt
       .command data-action='command' itcss update
       .blue data-action='line' data-delay='8000' update source/assets/stylesheets/application.sass
 
     h3.section__title Inuitcss
     p.section__paragraph Download and import inuitcss modules should not be that hard. That’s why we decided to add inuit commands to itcsscli. They use your package manager to download the external modules and import it all into your sass base file.
-    .showyourterms.js-syt7
+    .showyourterms.js-syt
       .command data-action='command' itcss inuit new objects.buttons
       .green data-action='line' using bower to install inuit objects.buttons dependency...
       .grey data-action='line' data-delay='0' inuit-buttons#0.4.2 bower_components/inuit-buttons
