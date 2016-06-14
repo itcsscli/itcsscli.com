@@ -19,5 +19,27 @@ excerpt: A quick overview into your ITCSS structure.
 .section
   .container.container--big
     .showyourterms.showyourterms--screenshot
-      = image_tag 'itcssdoc_screenshot.png', class: 'section__screenshot'
-    p.section__paragraph One of the problems of ITCSS structure its the huge pile of files.
+      = image_tag 'screenshots/doc.png', class: 'section__screenshot'
+
+  .container
+    h3.section__title Why?
+    p.section__paragraph A big problem of ITCSS structures its the huge pile of files it becomes over time. itcsscli's documentation makes much more easy showing your project's big picture to a new frontend developer or even refactoring your CSS architecture.
+    h3.section__title BEM syntax
+    p.section__paragraph itcssdoc understands you:
+
+  .container.container--big
+    .showyourterms.showyourterms--screenshot
+      = image_tag 'screenshots/bem_syntax.png', class: 'section__screenshot'
+
+  .container
+    h3.section__title Feels good on git
+    p.section__paragraph Versioning your ITCSS documentation is not a trouble once that doesn't matter how many changes you make, git will detect only one change. That's because the doc's content is a single HTML file with a single line in it and no assets.
+
+    h3.section__title Usage
+    p.section__paragraph once that itcsscli it's fully configurated, it's that simple:
+    .showyourterms.js-syt8
+      .command data-action='command' itcss doc
+      .yellow data-action='line' parsing your files...
+      .green data-action='line' data-delay='0' The documentation has been successfully generated.
+      .green data-action='line' data-delay='0' create itcssdoc/index.html
+      .yellow data-action='line' data-delay='8000' opening itcssdoc in your browser...
