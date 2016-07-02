@@ -58,6 +58,10 @@ configure :build do
   # Use relative URLs
   activate :directory_indexes
 
+  # required to gh-pages build
+  activate :relative_assets
+  set :relative_links, true
+
   # Activate gzip
   activate :gzip
 
